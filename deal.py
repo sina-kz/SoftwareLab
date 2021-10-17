@@ -12,7 +12,7 @@ class Sell(ABC):
 
     def show_price(self):
         print(
-            f"price: {self.price_per_meter}\t discount: {self.discountable}\t convert:{self.convertable}"
+            f"price: {self.price_per_meter}\n discount: {self.discountable}\n convert:{self.convertable}"
         )
 
 
